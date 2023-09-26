@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --rosa: #B51D44;
+    --preto: #000000;
+    --branco: #ffff;
+
+    --font1: 'Poppins';
+
+}
+
+
+/* header */
+
+header {
+    background-color: var(--branco);
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.posicionamento {
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.posicionamento_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posicionamento_header img {
+    width: 250px;
+}
+
+/* .menu_barras{
+    display: none;
+} */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+}
+
+header a {
+    color: var(--preto);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: var(--);
+    font-size: 18px;
+}
+
+.btn_login {
+    color: var(--branco);
+    padding: 1px 25px;
+    border-radius: 5px;
+    background-color: var(--rosa);
+}
+
+h1 {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
+}
+
+
+/* banner */
+
+.banner>img {
+    width: 1600px;
+    height: 718.652px;
+    flex-shrink: 0;
+}
+
+
+/* eventos */
+.eventos {
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eventos h2 {
+    margin-bottom: 100px;
+}
+
+.eventos_cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-style: italic;
+    width: 48%;
+    max-width: 430px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 80px 5% 50px 5%;
+    color: var(--branco);
+    background-color: var(--azulC);
+    box-shadow: 0px 10px 15px #000000;
+    text-align: center;
+}
+
+/* .card img {
+    position: absolute;
+    top: -30px;
+    width: 120px;
+} */
+
+.card p {
+    font-size: 18px;
+}
+
+.eventos a {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: var(--font1);
+    color: var(--preto);
+}
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 117px;
+}
